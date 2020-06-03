@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Snakey</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <audio src="blop.mp3" id="appleSound"></audio>
+        <audio src="blip.mp3" id="blockSound"></audio>
+
+        <main>
+            <section id="statusDisplay">
+                <span>
+                    <span>Length: <span id="lengthDisplay"></span> </span>
+                    <span>(Record: <span id="recordDisplay"></span>)</span>
+                </span>
+                <span> Level: <span id="levelDisplay"></span> </span>
+            </section>
+            <section>
+                <canvas id="canvas" height="800" width="800"> </canvas>
+            </section>
+            <section id="infoDisplay">
+                <div>
+                    <span>Navigation: Arrow keys</span>
+                    <span>Restart: Enter</span>
+                </div>
+                <div>
+                    <span>Hard Mode (H): <span id="hardDisplay">off</span></span>
+                    <span>Projective Mode (P): <span id="projDisplay">off</span></span>
+                </div>
+            </section>
+        </main>
+    </body>
+
+    <script type="text/javascript" src="script.js"></script>
+</html>
