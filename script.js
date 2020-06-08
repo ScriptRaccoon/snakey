@@ -47,10 +47,26 @@ const DIRECTION = {
     down: +2,
 };
 
-// EVENT LISTENERS
+// START SCREEN
 
-window.addEventListener("load", restart());
-document.addEventListener("keydown", (e) => keyControl(e));
+function displayStartScreen() {
+    let started = false;
+    ctx.fillStyle = "white";
+    ctx.font = "40px Arial";
+    ctx.textAlign = "center";
+    ctx.fillText("Press any key to start the game", 400, 400);
+    document.addEventListener("keydown", start);
+}
+
+displayStartScreen();
+
+// START FUNCTION
+
+function start() {
+    document.removeEventListener("keydown", start);
+    document.addEventListener("keydown", (e) => keyControl(e));
+    restart();
+}
 
 // RESTART FUNCTION
 
