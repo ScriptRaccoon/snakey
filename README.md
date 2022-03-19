@@ -1,6 +1,6 @@
 # Snakey
 
-Demo: https://ypby7.codesandbox.io/
+Demo: https://play-snakey.netlify.app/
 
 A snake-like Browser game with some extra features:
 
@@ -13,5 +13,6 @@ A snake-like Browser game with some extra features:
 ![Screenshot](screenshot.png)
 
 Sound credits:
-http://soundbible.com/1682-Robot-Blip.html /
-http://soundbible.com/2067-Blop.html
+
+-   http://soundbible.com/1682-Robot-Blip.html
+-   http://soundbible.com/2067-Blop.html
