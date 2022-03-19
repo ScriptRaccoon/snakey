@@ -1,6 +1,6 @@
 # Snakey
 
-Demo: https://ypby7.csb.app/
+Demo: https://ypby7.codesandbox.io/
 
 A snake-like Browser game with some extra features:
 
