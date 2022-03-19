@@ -50,7 +50,6 @@ const DIRECTION = {
 // START SCREEN
 
 function displayStartScreen() {
-    let started = false;
     ctx.fillStyle = "white";
     ctx.font = "40px Arial";
     ctx.textAlign = "center";
